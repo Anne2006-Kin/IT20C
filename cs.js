@@ -25,7 +25,7 @@ function computeGrade(grade){
 computeGrade(85);
 
 function login (username,password){
-    if(username === "shiela"){
+    if(username === "anne"){
     if(password === "12345"){
         console.log ("Welcome User");
     } else {
@@ -35,4 +35,4 @@ function login (username,password){
     console.log ("Invalid User");
 }
 }
-login ("shiela",123);
+login ("anne",123);
