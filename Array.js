@@ -36,6 +36,13 @@ class Array {
             console.log(element + "is found at index" + i);
             return-1;
         }
+        upadate(index,element){
+            if (index < 0 || index >= this.length){
+                console.log("Index Index");
+                return-1;
+            }
+            this.data[index]=element;
+        }  
 arr1 = new Array ([4,2,3]);
 arr1.traverse();
 arr1.insert(1,50);
