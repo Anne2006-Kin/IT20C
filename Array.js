@@ -30,7 +30,15 @@ class Array {
         this.data[index]=element;
         this.length++;
         }
+        search (element)
+        for (let i=0;i<this.length;i++){
+            if (this.data[i]===element) return 1;
+            console.log(element + "is found at index" + i);
+            return-1;
+        }
 arr1 = new Array ([4,2,3]);
 arr1.traverse();
 arr1.insert(1,50);
 arr1.traverse();
+arr1.search(50);
+arr1.search(10);
